@@ -2227,7 +2227,7 @@
                 <div class="row fill-width">
                     <section class="sponsors">
                         <div class="markdown">
-                            <p>Hello!</p>
+                            <p>Hi 👋 </p>
                             <p>I've been working on various open source projects and Minecraft plugins for 10 years. You've probably used or heard of a couple of my Spigot plugins over the years:</p>
                             <ul>
                                 <li>MobBountyReloaded</li>
@@ -2242,7 +2242,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 8 Jun 2022, 13:11:33 (timezone America/New_York) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 8 Jun 2022, 14:04:49 (timezone America/New_York) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
