@@ -82,7 +82,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            7213 Commits
+                            7275 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -2158,7 +2158,7 @@ still a bunch more to fix
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">e16bc177</span>
-                            <span class="code">.github/workflows/mega-linter.yml</span>
+                            <span class="code">src/main/kotlin/com/tealcube/minecraft/bukkit/mythicdrops/commands/TiersCommand.kt</span>
                             <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
@@ -2166,7 +2166,7 @@ still a bunch more to fix
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -7,7 +7,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"># Trigger mega-linter at every push. Action will also be visible from Pull Requests to master<br /></span><span class="token prefix unchanged">·</span><span class="token line">push: # Comment this line to trigger action only on pull-requests (not recommended if you don't pay for GH Actions)<br /></span><span class="token prefix unchanged">·</span><span class="token line">pull_request:<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  branches: [master, main]<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  branches: [ master, main ]<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">env: # Comment env block if you do not want to apply fixes<br /></span><span class="token prefix unchanged">·</span><span class="token line"># Apply linter fixes configuration</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -39,7 +39,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">@Description("Prints the tiers that the plugin is aware of.")<br /></span><span class="token prefix unchanged">·</span><span class="token line">@Subcommand("tiers")<br /></span><span class="token prefix unchanged">·</span><span class="token line">@CommandPermission("mythicdrops.command.tiers")<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">fun tiersCommand(sender: CommandSender) {<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">fun tiers(sender: CommandSender) {<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    sender.sendMythicMessage(<br /></span><span class="token prefix unchanged">·</span><span class="token line">        mythicDrops.settingsManager.languageSettings.command.tierList,<br /></span><span class="token prefix unchanged">·</span><span class="token line">        "%tiers%" to mythicDrops.tierManager.get().joinToString(", ") { it.name }</span></span></code>
                         </div>
                     </section>
                 </div>
@@ -2206,7 +2206,7 @@ still a bunch more to fix
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 26 Jun 2022, 17:04:34 (timezone America/New_York) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 26 Jun 2022, 18:04:46 (timezone America/New_York) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
