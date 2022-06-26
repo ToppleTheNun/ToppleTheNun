@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2519" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2559" class="">
     <defs>
         <style/>
     </defs>
@@ -2156,7 +2156,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">ee1a7c09</span>
-                            <span class="code">mythicdrops-plugin/src/main/kotlin/com/tealcube/minecraft/bukkit/mythicdrops/crafting/CraftingListener.kt</span>
+                            <span class="code">mythicdrops-plugin/src/main/kotlin/com/tealcube/minecraft/bukkit/mythicdrops/repair/MythicRepairItemManager.kt</span>
                             <span class="code"><span class="snippet additions">++2</span> <span class="snippet deletions">--0</span></span>
                         </div>
                     </section>
@@ -2164,7 +2164,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -32,7 +32,9 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import org.bukkit.event.inventory.CraftItemEvent<br /></span><span class="token prefix unchanged">·</span><span class="token line">import org.bukkit.event.inventory.PrepareItemCraftEvent<br /></span><span class="token prefix unchanged">·</span><span class="token line">import org.bukkit.inventory.ItemStack<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import org.koin.core.annotation.Single<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">@Single<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">internal class CraftingListener(private val settingsManager: SettingsManager) : Listener {<br /></span><span class="token prefix unchanged">·</span><span class="token line">   @EventHandler<br /></span><span class="token prefix unchanged">·</span><span class="token line">   fun onPrepareItemCraftEvent(event: PrepareItemCraftEvent) {</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -24,8 +24,10 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import com.tealcube.minecraft.bukkit.mythicdrops.api.choices.Choice<br /></span><span class="token prefix unchanged">·</span><span class="token line">import com.tealcube.minecraft.bukkit.mythicdrops.api.repair.RepairItem<br /></span><span class="token prefix unchanged">·</span><span class="token line">import com.tealcube.minecraft.bukkit.mythicdrops.api.repair.RepairItemManager<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import org.koin.core.annotation.Single<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import java.util.Locale<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">@Single<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">internal class MythicRepairItemManager : RepairItemManager {<br /></span><span class="token prefix unchanged">·</span><span class="token line">   private val managedRepairItems = mutableMapOf&lt;String, RepairItem&gt;()<br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
@@ -2204,7 +2204,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 26 Jun 2022, 09:09:33 (timezone America/New_York) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 26 Jun 2022, 10:04:40 (timezone America/New_York) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
