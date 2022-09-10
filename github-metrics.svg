@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2468" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2548" class="">
     <defs>
         <style/>
     </defs>
@@ -2130,7 +2130,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 8 Sept 2022, 16:55:37
+                            On 9 Sept 2022, 18:15:24
                         </div>
                     </section>
                 </div>
@@ -2140,32 +2140,45 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            initial pass at DH updates
+                            second pass on demon hunter
 
-update all analyzers to use new generated talents
+clean out changelog entries referencing
+abilities that are removed in DF
 
-add talent scaling constants for shared, havoc, veng
+add sigils to HDH abilities list
 
-update CONFIG.tsx for havoc and vengeance
+clean out entries in SPELLS/demonhunter that are
+present in TALENTS/demonhunter
 
-clean out old changelog entries pre-2022
+add support for Charred Warblades
 
-migrate all demon hunter spells into DH SPELLS file
+add getTalentRank function for Combatant
+
+correct locations of multiple analyzers in the
+statistics tab
+
+add support for Misery in Defeat class talent
+
+add support for Retaliation talent
+
+add Buffs module for Vengeance to make frailty
+support easier, given that it can now be applied by
+three different abilities.
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">065637c6</span>
-                            <span class="code">src/analysis/retail/demonhunter/havoc/normalizers/EyeBeam.ts</span>
-                            <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
+                            <span class="code">5174cb9c</span>
+                            <span class="code">src/analysis/retail/demonhunter/havoc/modules/features/AlwaysBeCasting.tsx</span>
+                            <span class="code"><span class="snippet additions">++2</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,4 +1,4 @@</span><br /><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import SPELLS from 'common/SPELLS';<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import SPELLS from 'common/SPELLS/demonhunter';<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import EventOrderNormalizer, { EventOrder } from 'parser/core/EventOrderNormalizer';<br /></span><span class="token prefix unchanged">·</span><span class="token line">import { EventType } from 'parser/core/Events';<br /></span><span class="token prefix unchanged">·</span><span class="token line">import { Options } from 'parser/core/Module';</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -31,7 +31,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    &lt;SpellLink id={SPELLS.FEL_RUSH_CAST.id} /&gt;,{' '}<br /></span><span class="token prefix unchanged">·</span><span class="token line">    &lt;SpellLink id={TALENTS_DEMON_HUNTER.FELBLADE_TALENT.id} icon /&gt;,{' '}<br /></span><span class="token prefix unchanged">·</span><span class="token line">    &lt;SpellLink id={TALENTS_DEMON_HUNTER.THE_HUNT_TALENT.id} icon /&gt;<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    or &lt;SpellLink id={SPELLS.VENGEFUL_RETREAT.id} icon /&gt; to quickly get back to the boss.<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    or &lt;SpellLink id={TALENTS_DEMON_HUNTER.VENGEFUL_RETREAT_TALENT.id} icon /&gt; to quickly<br /></span><span class="token prefix inserted">+</span><span class="token line">    get back to the boss.<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">  &lt;/&gt;,<br /></span><span class="token prefix unchanged">·</span><span class="token line">)<br /></span><span class="token prefix unchanged">·</span><span class="token line">  .icon('spell_mage_altertime')</span></span></code>
                         </div>
                     </section>
                 </div>
@@ -2205,7 +2218,7 @@ migrate all demon hunter spells into DH SPELLS file
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 10 Sept 2022, 09:14:05 (timezone America/New_York) with lowlighter/metrics@3.28.0</span>
+                <span>Last updated 10 Sept 2022, 10:04:53 (timezone America/New_York) with lowlighter/metrics@3.28.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
