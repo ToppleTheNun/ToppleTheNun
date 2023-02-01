@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2086" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2040" class="">
     <defs>
         <style/>
     </defs>
@@ -192,7 +192,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.565 20.565 0 008 13.393a20.561 20.561 0 003.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 01-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5zM8 14.25l-.345.666-.002-.001-.006-.003-.018-.01a7.643 7.643 0 01-.31-.17 22.075 22.075 0 01-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.08 22.08 0 01-3.744 2.584l-.018.01-.006.003h-.002L8 14.25zm0 0l.345.666a.752.752 0 01-.69 0L8 14.25z"/>
                                     </svg>
-                                    1 Sponsor
+                                    0 Sponsors
                                 </div>
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -857,7 +857,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 1.84m out of 373m repositories</span>
+                                    <span class="gh">ranked 1.87m out of 373m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 4 times</div>
                             </div>
@@ -1014,10 +1014,10 @@
                 <div class="fill-width">
                     <section class="sponsors goal">
                         <div class="goal-text">
-                            <span>1 sponsor is funding ToppleTheNun's work</span>
+                            <span>
+                            </span>
                         </div>
                         <div class="row">
-                            <img class="avatar " src="data:image/png;base64,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mBO7XD1MYudGzIldrh4msXMj5sQuVw+T2LkRc2KXq4dJ7NyIObHL1cMkdm7EnNjl6mESOzdiTuxy9TCJnRsxJ3a5epjEzo2YE7tcPUxi50bMiV2uHiaxcyPmxC5XD5PYuRFzYperh0ns3Ig5scvVwyR2bsSc2OXqYRI7N2JO7HL1MImdGzEndrl6mMTOjZgTu1w9TGLnRsyJXa4eJrFzI+bELlcPk9i5EXNil6uHSezciDmxy9XDJHZuxJzY5ephEjs3Yk7scvUwiZ0bMSd2uXqYxM6NmBO7XD1MYudGzIldrh4msXMj5sQuVw+T2LkRc2KXq4dJ7NyIObHL1cMkdm7EnNjl6mESOzdiTuxy9TCJnRsxJ3a5epjEzo2YE7tcPUxi50bMiV2uHiaxcyPmxC5XD5PYuRFzYperh0ns3Ig5scvVwyR2bsSc2OXqYRI7N2JO7HL1MImdGzEndrl6mMTOjZgTu1w9TGLnRsyJHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtgBJ4gdcILYASeIHXCC2AEniB1wgtjl3u+PHwv8/AJ/8P2fInY579wClQX+4Ps/RexynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4Rsct56hYQu0XELuepW0DsFhG7nKduAbFbROxynroFxG4RsQNOEDvgBLEDThA74ASxA04QO+AEsQNOEDvgBLEDThA74ASxA04QO+AEsQNOEDvgBLEDThA74ASxA04QO+AEsQNOEDvgBLEDThA74ASxA04QO+AEsQNOEDvgBLEDThA74ASxA04QO+AEsQNOEDvgBLEDThA74HvBP1zIea56bdQ/AAAAAElFTkSuQmCC" width="24" height="24" alt="" />
                         </div>
                     </section>
                 </div>
@@ -1039,7 +1039,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 1 Feb 2023, 03:05:28 (timezone America/New_York) with lowlighter/metrics@3.32.0</span>
+                <span>Last updated 1 Feb 2023, 04:04:59 (timezone America/New_York) with lowlighter/metrics@3.32.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
