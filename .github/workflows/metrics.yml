@@ -45,7 +45,7 @@ jobs:
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_repositories: yes
-          plugin_repositories_featured: MythicDrops/MythicDrops, WoWAnalyzer/WoWAnalyzer
+          plugin_repositories_featured: MythicDrops/MythicDrops, WoWAnalyzer/WoWAnalyzer, simulationcraft/simc
           plugin_repositories_order: featured, pinned, starred, random
           plugin_sponsors: yes
           plugin_sponsors_sections: goal, list, about
