@@ -400,7 +400,7 @@
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 39.2 characters per line of code written</li>
+                        <li>Has approximately 39.4 characters per line of code written</li>
                         <li>Mostly pushes code around 00:00</li>
                         <li>Mostly active on Monday</li>
                     </ul>
@@ -525,7 +525,7 @@
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     developer
-                                    <span class="gh">ranked 160k out of 122m users</span>
+                                    <span class="gh">ranked 160k out of 123m users</span>
                                 </div>
                                 <div class="text">Published 103 public repositories</div>
                             </div>
@@ -780,7 +780,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 160k out of 130m repositories</span>
+                                    <span class="gh">ranked 160k out of 173m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 242 stars</div>
                             </div>
@@ -832,7 +832,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 424k out of 122m users</span>
+                                    <span class="gh">ranked 424k out of 123m users</span>
                                 </div>
                                 <div class="text">Followed by 29 users</div>
                             </div>
@@ -910,7 +910,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 2.09m out of 130m repositories</span>
+                                    <span class="gh">ranked 2.09m out of 173m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 4 times</div>
                             </div>
@@ -1092,7 +1092,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 24 Oct 2023, 14:05:35 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 24 Oct 2023, 15:04:42 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
